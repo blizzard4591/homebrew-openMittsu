@@ -11,6 +11,7 @@ class Openmittsu < Formula
   depends_on "libsodium"
   depends_on "qt5"
   depends_on "qrencode"
+  depends_on "spdlog"
   depends_on "blizzard4591/homebrew-qt5-sqlcipher/qt5sqlcipher"
 
   def install
