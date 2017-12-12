@@ -1,4 +1,4 @@
-class OpenMittsu < Formula
+class Openmittsu < Formula
   desc "A cross-platform open source implementation and desktop client for the Threema Messenger App."
   homepage "https://github.com/blizzard4591/openMittsu"
   url "https://github.com/blizzard4591/openMittsu/archive/0.9.10.zip"
