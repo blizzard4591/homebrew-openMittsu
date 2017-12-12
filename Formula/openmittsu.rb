@@ -14,6 +14,8 @@ class Openmittsu < Formula
   depends_on "spdlog"
   depends_on "blizzard4591/homebrew-qt5-sqlcipher/qt5sqlcipher"
 
+  needs :cxx11
+  
   def install
     args = %w[
       -DOPENMITTSU_DEBUG=OFF
