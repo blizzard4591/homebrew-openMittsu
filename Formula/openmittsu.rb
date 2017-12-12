@@ -10,7 +10,6 @@ class Openmittsu < Formula
   depends_on "cmake"
   depends_on "libsodium"
   depends_on "qt5"
-  depends_on "sqlcipher"
   depends_on "qrencode"
   depends_on "blizzard4591/homebrew-qt5-sqlcipher/qt5sqlcipher"
 
