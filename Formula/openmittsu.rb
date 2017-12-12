@@ -12,7 +12,7 @@ class Openmittsu < Formula
   depends_on "qt5"
   depends_on "sqlcipher"
   depends_on "qrencode"
-  depends_on "blizzard4591/homebrew-qt5-sqlcipher"
+  depends_on "blizzard4591/homebrew-qt5-sqlcipher/Qt5Sqlcipher"
 
   def install
     args = %w[
