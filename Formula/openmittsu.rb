@@ -17,6 +17,7 @@ class Openmittsu < Formula
     args = %w[
       -DOPENMITTSU_DEBUG=OFF
       -DCMAKE_BUILD_TYPE=RELEASE
+	  -DOPENMITTSU_DISABLE_VERSION_UPDATE_CHECK=On
     ]
 
     mktemp do
